@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {outline-color:"#2E86C1";}
+
+p.solid {outline-style: solid;}
+
+</style>
+
+</head>
+	<body>
+	<div id="form-img">
+		<img src="bms.png" width="99" height="99" align="left"/>
+	</div>
+	
+		<center>
+			<h2>B.M.S. COLLEGE OF ENGINEERING</h2>
+			<p>(Autonomous College under VTU)</p>
+			<p>Bull Temple Road,Bangalore-19</p>
+			<h3><font color="#2E86C1">DEPARTMENT OF COMPUTER APPLICATIONS</font></h3>
+		</center>    	
+	
+		<div class="solid">
+
+			<h1>VISION</h1>
+				<p>To emerge as a premier knowledge center for imparting computing education inculating human values to solve global challenges</p>
+			
+			<h1>MISION</h1>
+				<ul>
+					<li>To empower students with knowledge,skills and attitude to develop comprehensive computing solutions that address the needs of academia,industry ans society.</li>
+					<li>To excel in education,research,consultancy and industry collaboration.</li>
+				</ul>
+		</div>
+		<div class="solid">
+			<h1>PROGRAM EDUCATION OBJECTIVES</h1>
+				<ul>
+					<li>Demonstrate professional excellence in industry,public service or academia with strong skills in problem analysis,solution design and application development with a commitment to lifelong learning.</li>
+					<li>Practice their profession with high standards of ethics.</li>
+					<li>Be committed to work in terms with different cultures and disciplines and evolve as leaders in their roles.</li>
+				</ul>
+		</div>
+</html>

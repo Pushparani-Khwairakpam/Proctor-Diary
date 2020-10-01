@@ -1,0 +1,30 @@
+<html>
+<body>
+<form action="showDB.php" method="post">
+<label>Academic Year: </label>
+<select name="year">
+    <?php
+mysqli_connect('localhost','root','');
+mysqli_select_db('users');
+$sql="SELECT ac_yr FROM student";
+$result=mysqli_query($sql);
+//echo "<select ac_name='student'>";
+while($row=mysqli_fetch_array($result))
+{
+	echo "<option value='".$row['ac_yr']."'>".$row['ac_yr']."</option>";
+}
+echo "</select>";
+?>
+<label>Semester:</label>
+<select name="semester">
+    <option semester="all">All</option>
+    <option semester="sem1">1</option>
+    <option semester="sem2">2</option>
+	<option semester="sem3">3</option>
+	<option semester="sem4">4</option>
+	<option semester="sem5">5</option>
+	<option semester="sem6">6</option>
+</select>
+<input type="submit" value="Filter" name="filterdb"/>
+</body>
+</html>
