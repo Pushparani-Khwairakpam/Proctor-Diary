@@ -282,8 +282,7 @@ function myFunction() {
                                                 </div>
                                             </div>
                                             <!-- /.panel -->
-                                            <p class="text-muted text-center"><small>Development Team  <a href="pushpa_CV.pdf" target="_blank"> Pushpa_K </a>and
-                                            	<a href="MCA_BMSCE.pdf" target="_blank"> Bishwajit</a></small></p> 
+                                            <p class="text-muted text-center"><small>Development Team  <a href="pushpa_CV.pdf" target="_blank"> Pushpa_K </a></small></p> 
                                            
 
                                         </div>
